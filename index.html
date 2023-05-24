@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="style.css" />
 
     <script type="module" src="script.js"></script>
-    
+
     <title>Webová aplikace</title>
   </head>
-<body>
-  <div class="container">
-    <h1>Webová aplikace</h1>
-  </div>
-</body>
+  <body>
+    <div class="container">
+      <h1>Webová aplikace</h1>
+      <form id="formular">
+        <div class="form__field">
+          <label class="form__label">Jméno hlasujícího:</label>
+          <input class="form__input" type="text" id="voter" name="voter" />
+        </div>
+        <button class="btn" type="submit">Hlasovat</button>
+      </form>
+    </div>
+  </body>
 </html>
